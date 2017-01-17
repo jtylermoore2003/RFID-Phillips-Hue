@@ -9,6 +9,7 @@ logging.basicConfig()
 
 #IP of Phillips Hue Bridge
 b = Bridge('ip of your bridge')
+
 continue_reading = True
 
 # Capture SIGINT for cleanup when the script is aborted
