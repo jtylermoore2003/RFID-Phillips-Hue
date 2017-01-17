@@ -53,7 +53,7 @@ Download the python files I have written by running `git clone https://github.co
 Then navigate to the RFID-Phillips-Hue on your pi and open the file *phue-bridge-setup.py* and add the ip of your bridge to this section:
  
 ```python
-b = Bridge('192.168.1.218')
+b = Bridge('ip of your bridge')
 ```
 After that press the button on your Phillips Hue Bridge and run the code in the terminal by running: 
 ```
