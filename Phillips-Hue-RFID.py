@@ -8,8 +8,7 @@ import logging
 logging.basicConfig()
 
 #IP of Phillips Hue Bridge
-b = Bridge('192.168.1.218')
-
+b = Bridge('ip of your bridge')
 continue_reading = True
 
 # Capture SIGINT for cleanup when the script is aborted
