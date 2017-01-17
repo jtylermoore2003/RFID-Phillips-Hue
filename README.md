@@ -48,7 +48,9 @@ cd MFRC522-python/
 ###Installation
 Install the phue library by running `sudo pip install phue` in the terminal
 ###Setup
-Download the python files I have written by running `git clone https://github.com/jtylermoore2003/RFID-Phillips-Hue` 
+Download the python files I have written by running `git clone https://github.com/jtylermoore2003/RFID-Phillips-Hue` and copy the file *Phillips-Hue-RFID.py* into the *MFRC522-python* folder 
+
+**The code will not work if it is not within the MFRC522-python folder**
 
 Then navigate to the RFID-Phillips-Hue on your pi and open the file *phue-bridge-setup.py* and add the ip of your bridge to this section:
  
@@ -64,6 +66,12 @@ sudo python phue-bridge-setup.py
 **Do not run the code in IDLE as it will not work**
 
 ##Run the code
-Now run the Phillips-Hue-RFID file in the terminal by running `sudo python Phillips-Hue-RFID.py` and tap a RFID card/tag on your reader. Your Hue bulb should switch on and off everytime you tap the card/tag! 
+Now run the Phillips-Hue-RFID file in the terminal by running 
+```
+cd ~
+cd MFRC522-python
+sudo python Phillips-Hue-RFID.py
+``` 
+Then tap a RFID card/tag on your reader. Your Hue bulb should switch on/off everytime you tap a card/tag! 
 
 **Do not run the code in IDLE as it will not work**
