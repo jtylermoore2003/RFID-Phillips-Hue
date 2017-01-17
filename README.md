@@ -1,5 +1,7 @@
 # Phillips Hue RFID
-This program uses the phue library found here: https://github.com/studioimaginaire/phue the MFRC522 library found here: https://github.com/mxgxw/MFRC522-python and the SPI-Py library found here: https://github.com/lthiery/SPI-Py.git
+This program uses RFID to turn a Phillips Hue bulb on and off. 
+
+It uses the phue library found here: https://github.com/studioimaginaire/phue the MFRC522 library found here: https://github.com/mxgxw/MFRC522-python and the SPI-Py library found here: https://github.com/lthiery/SPI-Py.git
 
 This tutorial is based off of [Sunfounder's](https://www.sunfounder.com/wiki/index.php?title=How_to_Use_an_RFID_RC522_on_Raspberry_Pi#Enable_Device_Tree) tutorial.
 ##Hardware
@@ -42,3 +44,6 @@ cd
 git clone https://github.com/mxgxw/MFRC522-python.git
 cd MFRC522-python/
 ```
+##Install and setup phue
+###Installation
+Install the phue library by running `sudo pip install phue` in the terminal
