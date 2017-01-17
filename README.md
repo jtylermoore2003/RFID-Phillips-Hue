@@ -65,4 +65,5 @@ sudo python phue-bridge-setup.py
 
 ##Run the code
 Now run the Phillips-Hue-RFID file in the terminal by running `sudo python Phillips-Hue-RFID.py` and tap a RFID card/tag on your reader. Your Hue bulb should switch on and off everytime you tap the card/tag! 
+
 **Do not run the code in IDLE as it will not work**
