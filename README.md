@@ -52,7 +52,7 @@ Download the python files I have written by running `git clone https://github.co
 
 **The code will not work if it is not within the MFRC522-python folder**
 
-Then navigate to the RFID-Phillips-Hue on your pi and open the file *phue-bridge-setup.py* and add the ip of your bridge to this section:
+Then navigate to the *RFID-Phillips-Hue* folder on your pi and open the file *phue-bridge-setup.py* and add the ip of your bridge to this section:
  
 ```python
 b = Bridge('ip of your bridge')
